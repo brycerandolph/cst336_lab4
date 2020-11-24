@@ -1,4 +1,23 @@
 body{
     background-color: #CBE2F6;
     text-align: center;
+    
+}
+
+.topBar a{
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 22px;  
+  color: purple;
+}
+
+p{
+  margin: 0 auto;
+  max-width: 620px;
+  text-align: center;
+}
+
+h1{
+  color: navy;
 }

@@ -9,13 +9,20 @@ app.get("/", function(req, res){
 });
 
 app.get("/mercury", function(req, res){
-    res.render("mercury.html")    
+    res.render("mercury.html");
 });
 
 app.get("/venus", function(req, res){
-    res.send("This will be a Venus web page!")    
+    res.render("venus.html");    
 });
 
+app.get("/earth", function(req, res){
+    res.render("earth.html");    
+});
+
+app.get("/mars", function(req, res){
+    res.render("mars.html");    
+});
 
 //starting server
 app.listen(process.env.PORT, process.env.IP, function(){
